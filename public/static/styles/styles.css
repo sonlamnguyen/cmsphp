@@ -1,0 +1,170 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+    /*
+    border-radius: 10px;
+    */
+}
+
+::-webkit-scrollbar-thumb {
+	/*
+    border-radius: 10px;
+    */
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5); 
+    background-color: #EAEAEA;
+    border: none;
+}
+
+#main-container{
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.ng-scope { height: 100%; }
+a .active button {
+	background-color: #E0E0E0 !important;
+}
+
+#global-loading{
+	display: none;
+	position: fixed;
+	z-index: 99999999;
+	top: 25%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	background-color: #D2D2D2;
+	opacity: 0.7;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.padding-5{
+	padding: 5px;
+}
+
+.padding-10{
+	padding: 10px;
+}
+
+.modal-content {
+	border-radius: 4px;
+}
+
+.modal-footer {
+	border: none;
+	padding: 0;
+}
+
+.alert {
+	border-radius: 0;
+}
+
+form .alert-danger {
+	display: none;
+	text-align: left !important;
+}
+
+md-list a{
+	text-decoration: none;
+	color: black;
+}
+
+md-list a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+.list-table{
+	width: 100%;
+}
+
+.list-table tr:not(:last-child){
+	border-bottom: solid 1px #E4E4E4;
+}
+
+/*
+.list-border:first-child{
+	border-bottom: solid 1px #E4E4E4;
+}
+*/
+/*
+.list-border:not(:first-child){
+	border-top: solid 1px #E4E4E4;
+}
+*/
+
+.row-tool{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+
+.tool-icon{
+	font-size: 18px;
+}
+
+.row-tool .md-button{
+	min-width: 25px ! important;
+}
+
+.row-content{
+	padding: 10px;
+}
+
+.tool-assis{
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	opacity: 0.5;
+}
+
+form label{
+	color: #BDBDBD;
+}
+
+.collapse-heading{
+	font-size: 13px;
+}
+
+.collapse-card__title{
+	font-size: 14px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.collapse-card__body{
+	padding: 0;
+}
+
+.md-subheader-content{
+	font-weight: bold;
+}
+
+.collapse-card__heading{
+	background-color: #ECECEC;
+}
+
+.collapse-card:not(:last-child) .collapse-card__heading{
+	border-bottom: solid 1px #E4E4E4;
+}
+
+.collapse-card.active .collapse-card__heading{
+	border-bottom: solid 1px #E4E4E4;
+}
+
+#side-menu .md-avatar{
+	border-radius: 0 ! important;
+}
+
+.thumb-device{
+	height: 32px;
+}
